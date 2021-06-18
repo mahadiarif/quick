@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    height: 50px;
+    border-bottom: 2px solid #EEF0F3;
+    padding: 15px 0px;
+}
+.container {
+    margin: 0 auto;
+    overflow: hidden;
+    width: 1065px;
+}
+
+.logo {
+    float: left;
+    width: 10%;
+}
+.logo img{
+    width: 100%;
+    margin-top: 7px;
+}
+.menu {
+    float: right;
+    width: 90%;
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+    float: left;
+    list-style: none;
+    margin: 0px 10px;
+}
+.menu ul li a{
+    display: block;
+    text-decoration: none;
+    color: #0F2656;
+}
+.menu ul li a:hover{
+    color: #0A64FF;
+}
+
+.banner-text {
+    text-align: center;
+    
+}
+.banner-text h1{
+    font-weight: bold;
+    font-size: 40px;
+    color: #041D4E;
+}
+.banner-text span{
+    font-weight: bold;
+color: #008AFF;
+}
+.banner-img {
+    text-align: center;
+}
+
+.success-text-left{
+    padding: 30px 0px;
+    float: left;
+    width: 49%;
+    text-align: right;
+}
+.success-text-left h1{
+    font-size: 40px;
+    font-weight: bold;
+    color:#F05566;
+}
+.success-text-right {
+    padding: 30px 0px;
+    float: right;
+    width: 49%;
+    text-align: left;
+}
+.success-text-right h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: #041D4E;
+} 
+.service:nth-child(1){
+    background-color: #FEEBED;
+}
+.service:nth-child(2){
+    background-color: #EAF9F4;
+}
+.service:nth-child(3){
+    background-color: #FFF8E8;
+}
+.service {
+    padding: 30px 15px;
+    float: left;
+    width: 25%;
+    text-align: center;
+    margin: 29px;
+    transition: ease 0.2s;
+}
+.service:hover{
+    box-shadow: -1px 1px 5px 3px rgba(0,0,0,0.33);
+}
+.service img{
+    width: auto;
+}
+.service h3{
+    text-align: left;
+}
+.service p{
+    text-align: left;
+}
+footer{
+    margin-top: 30px;
+    overflow: hidden;
+    height: 50px;
+    background-color:#008AFF;
+    padding: 15px 0px;
+}
+footer p{
+    text-align: center;
+}
